@@ -1,6 +1,5 @@
 from flask import Flask
 from flask import render_template
-from flask import url_for
 app = Flask(__name__)
 
 # Examples can be found at http://flask.pocoo.org/docs/0.12/quickstart/
