@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% block title %}Feature{% endblock %}
+{% block content %}
+  <p>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur pretium et est at cursus. Quisque at nibh aliquet, consequat libero ac, mollis lectus. Aenean et dolor ipsum. Praesent vulputate neque sit amet arcu vestibulum, a rutrum metus finibus. Proin non feugiat sem, vel lobortis lorem. Proin ut ligula elit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur viverra orci non turpis tincidunt, in feugiat massa semper. Maecenas id elit eget nunc cursus ullamcorper quis elementum lacus.
+  </p>
+  <!-- Button trigger modal -->
+  <button type="button" class="btn btn-primary center-block" data-toggle="modal" data-target="#myModal">
+    <span class="glyphicon glyphicon-floppy-disk" aria-hidden="true"></span> Security Tip
+  </button>
+  <div class="modal fade" id="myModal" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title">Security Tip!</h4>
+        </div>
+        <div class="modal-body">
+          <p>Save your confidential data on obsolete medium!</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div><!-- /.modal -->
+{% endblock %}
