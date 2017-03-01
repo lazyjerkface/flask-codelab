@@ -36,7 +36,7 @@ def show_user_profile_with_template(name=None):
 # Template inheritance makes templating even more powerful.
 # main_page() and feature() use a base template (base.html) and extend it.
 # 1) See http://localhost:5000/main and take note of what happens when
-#    you navigate beteween 'Home' and 'Feature'.
+#    you navigate between 'Home' and 'Feature'.
 # 2) Take a look at base.html, info.html, and feature.html to understand
 #    how info.html and feature.html extend base.html.
 # Exercise 4:
