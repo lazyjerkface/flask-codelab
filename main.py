@@ -1,5 +1,8 @@
+import os
+
 from flask import Flask
 from flask import render_template
+
 app = Flask(__name__)
 
 # Examples can be found at http://flask.pocoo.org/docs/0.12/quickstart/
@@ -49,4 +52,10 @@ def main_page():
 @app.route('/feature')
 def feature():
   return render_template('feature.html')
- 
+
+# This is adapted to work in C9.
+if __name__ == '__main__':
+  app.debug = True
+  host = os.environ.get('IP', '0.0.0.0')
+  port = int(os.environ.get('PORT', 8080))
+  app.run(host=host, port=port)
