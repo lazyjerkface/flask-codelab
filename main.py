@@ -14,6 +14,8 @@ app = Flask(__name__)
 # Note that this is the index or default homepage for your application.
 @app.route('/')
 def hello_world():
+    # Hint: Change the text between the single-quotes.
+    # Hint 2: Add some HTML.  For example, change World to <b>World</b>.
     return 'Hello, World!'
 
 
