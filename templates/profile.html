@@ -1,13 +1,21 @@
+<!-- Flask uses the Jinja2 templating language. You can read more about it here:
+http://jinja.pocoo.org/docs/2.9/templates
+-->
 <!DOCTYPE html>
 <html>
   <head>
     <title>{% if name %}{{ name }}'s Profile{% else %}Profile Page{% endif %}</title>
   </head>
   <body>
+    <!-- Exercise 2: Somewhere in this block you need to add
+        elif name == '<your name>'
+    Pay close attention to the syntax below and pay attention to ordering your
+    if statements.
+    http://jinja.pocoo.org/docs/2.9/templates/#if -->
     {% if name %}
-      <h1>Hello {{ name }}!</h1>
+      Hello {{ name }}!
     {% else %}
-      <h1>Hello friend!</h1>
+      Hello friend!
     {% endif %}
   </body>
 </html>

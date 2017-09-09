@@ -1,4 +1,6 @@
+<!-- This tells Flask that this child template, feature.html, inherits base.html -->
 {% extends "base.html" %}
+<!-- The blocks "title" and "content" already exist in base.html. These declarations allow us to overwrite the content while still keeping the format of base.html-->
 {% block title %}Feature{% endblock %}
 {% block content %}
   <p>
