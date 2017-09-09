@@ -1,7 +1,7 @@
 # flask-codelab
-This is a codelab made for GWCTV using Code9.
+This is a web development codelab using [Flask](http://flask.pocoo.org) made for GWCTV using [Cloud9](https://c9.io).
 
-It's recommended you create a new Python workspace in Code9 and clone this repository.
+It's recommended you create a new Python workspace in Cloud9 and clone this repository.
 
 Follow the directions [here](https://blog.rmotr.com/getting-started-with-flask-1389d7dbe285) to setup your environment (but use this git repository instead of what's listed on the site) and install virtualenv and Flask.
 
